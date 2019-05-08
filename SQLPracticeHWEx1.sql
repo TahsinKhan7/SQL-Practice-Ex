@@ -3,7 +3,7 @@
 
 USE Northwind
 --1.1
---SELECT CustomerID, CompanyName, [Address] FROM Customers WHERE City = 'Paris' OR City = 'London';
+--SELECT CustomerID, CompanyName, [Address] + ', ' + PostalCode + ', ' + City + ', ' + Country AS 'Full Address' FROM Customers WHERE City = 'Paris' OR City = 'London';
 
 --1.2
 --SELECT ProductName FROM Products WHERE QuantityPerUnit LIKE '%bottles%';
